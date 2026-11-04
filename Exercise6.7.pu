@@ -1,0 +1,14 @@
+# Membuat dictionary untuk masing-masing orang
+person_1 = {'first_name': 'Budi', 'last_name': 'Santoso', 'age': 25, 'city': 'Jakarta'}
+person_2 = {'first_name': 'Siti', 'last_name': 'Rahma', 'age': 30, 'city': 'Bandung'}
+person_3 = {'first_name': 'Andi', 'last_name': 'Pratama', 'age': 22, 'city': 'Surabaya'}
+
+# Menyimpan semua dictionary ke dalam list bernama 'people'
+people = [person_1, person_2, person_3]
+
+# Melakukan perulangan untuk mencetak informasi setiap orang
+for person in people:
+    full_name = f"{person['first_name']} {person['last_name']}"
+    print(f"Nama Lengkap: {full_name}")
+    print(f"Usia: {person['age']}")
+    print(f"Kota: {person['city']}\n")

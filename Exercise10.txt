@@ -1,0 +1,4 @@
+In Python you can store data using variables and lists.
+In Python you can control program flow using loops and if statements.
+In Python you can organize reusable code by defining functions and classes.
+In Python you can read and write external files such as txt, csv, and json.
